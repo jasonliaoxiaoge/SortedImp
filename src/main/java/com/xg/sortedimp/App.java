@@ -12,7 +12,8 @@ public class App {
 		//AbstractSorter sorter = new SelectSorter();
 		//AbstractSorter sorter = new TwoSelectSorter();
 		//AbstractSorter sorter = new HeapSorter();
-		AbstractSorter sorter = new QuickSorter();
+		//AbstractSorter sorter = new QuickSorter();
+		AbstractSorter sorter = new MergeSorter();
 		
 		AbstractSorter.print(ints, 0);
 		System.out.println("================init==============");
