@@ -6,7 +6,7 @@ public abstract class  AbstractSorter {
 		System.out.print("i="+i+": ");
 		for(int x:a) {
 			System.out.print(x+" ");
-		}
+		}  
 		System.out.println();
 	}
 	
