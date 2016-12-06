@@ -9,7 +9,7 @@ public abstract class  AbstractSorter {
 		}  
 		System.out.println();
 	}
-	
+	   
 	public abstract void sort(int[] ints);
 
 }
